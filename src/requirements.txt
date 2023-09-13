@@ -1,0 +1,9 @@
+os
+sys
+markdown
+tkinter
+tkcode
+pyperclip
+Pillow
+pyautogui
+win32clipboard

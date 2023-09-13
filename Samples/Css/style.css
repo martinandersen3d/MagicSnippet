@@ -1,0 +1,113 @@
+/* Global Reset */
+/*----------------------------------*/
+/* You can include a CSS reset here to normalize styles across browsers */
+
+/* Global Styles */
+/*----------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Styles */
+  /*----------------------------------*/
+  header {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  header nav {
+    margin-top: 10px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Main Content Styles */
+  /*----------------------------------*/
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  main h2 {
+    font-size: 24px;
+  }
+  
+  main p {
+    margin-bottom: 20px;
+  }
+  
+  /* Sidebar Styles */
+  /*----------------------------------*/
+  aside {
+    float: right;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  aside h3 {
+    font-size: 20px;
+  }
+  
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  aside ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  /*----------------------------------*/
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Media Queries */
+  /*----------------------------------*/
+  @media (max-width: 768px) {
+    /* Styles for smaller screens */
+    main {
+      width: 100%;
+    }
+    
+    aside {
+      float: none;
+      width: 100%;
+    }
+  }
+  
