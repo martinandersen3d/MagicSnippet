@@ -35,7 +35,7 @@ venv\Scripts\Activate.ps1
 
 # I think this is the optimal _minimal_ starter settings, enable more if needed - depending on you project requirement
 
-pyinstaller --noconsole `
+pyinstaller --noconsole -y `
 --exclude-module tcl `
 --exclude-module _bz2 `
 --exclude-module _decimal `
@@ -52,9 +52,6 @@ pyinstaller --noconsole `
 --exclude-module easy_install `
 --exclude-module email `
 --exclude-module gzip `
---exclude-module html `
---exclude-module http `
---exclude-module http `
 --exclude-module IPython `
 --exclude-module lzma `
 --exclude-module nose `
@@ -73,12 +70,9 @@ pyinstaller --noconsole `
 --exclude-module sqlite3 `
 --exclude-module tarfile `
 --exclude-module test `
---exclude-module tk `
 --exclude-module unittest `
 --exclude-module unittest `
 --exclude-module wheel `
---exclude-module xml `
---exclude-module xml `
 --exclude-module zipfile `
 --exclude-module zlib `
 --distpath=./dist_windows_exe ./src/main.py

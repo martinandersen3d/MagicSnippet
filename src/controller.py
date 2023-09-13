@@ -17,7 +17,7 @@ from copy_markdown_as_HTML_linux_controller import copy_markdown_as_HTML_clipboa
 from ui_popup_toast_copied import UiPopupToastCopied
 if os.name == 'nt':
     from copy_html_windows_controller import HtmlClipboard, PutHtml
-    from copy_file_controller import copy_files_windows
+    from copy_file_windows_controller import copy_files_windows
     from copy_image_windows_controller import CopyImageWindowsController
 # from copy_image_controller import copy_image_to_clipboard_on_windows
 # import asyncio

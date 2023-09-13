@@ -2,4 +2,4 @@ markdown
 pyperclip
 Pillow
 pyautogui
-win32clipboard
+pywin32; sys_platform == 'win32'
