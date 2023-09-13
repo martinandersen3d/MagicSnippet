@@ -1,0 +1,77 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "1. Install Programs",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "${workspaceFolder}/1_install_programs.sh"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "2. Setup Python (VENV) Virtual Environment",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "${workspaceFolder}/2_setup_venv.sh"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "3. (VENV) Install Requirements in Virtual Environment",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "${workspaceFolder}/3_venv_install_requirements.sh"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "4. Build Project with PyInstaller (Linux)",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "${workspaceFolder}/4_pyinstall_build_linux.sh"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "5. Deprecated - Install AppImage Tool",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "${workspaceFolder}/5_install_appimagetool.sh"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "6. Build AppImage",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "${workspaceFolder}/6_appimagetool_build.sh"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        }
+    ]
+}
