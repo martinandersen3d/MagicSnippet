@@ -1,7 +1,6 @@
 import os
 import sys
 import tkinter as tk
-# from tkcode import CodeBlock
 from tkinter import ttk
 
 from file_controller import FileController

@@ -3,7 +3,6 @@
 import os
 import sys
 import tkinter as tk
-# from tkcode import CodeBlock
 from controller import *
 
 app_version = "0.9"
