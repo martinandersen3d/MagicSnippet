@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=MyApp
+Comment=
+Exec=./AppRun %U
+Icon=MyApp
+Terminal=false
+Categories=Utility;
